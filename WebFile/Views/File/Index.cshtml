@@ -2,13 +2,33 @@
 @{
     ViewBag.Title = "Index";
 }
+@section head
+{
+  <script type="text/javascript">
+        $(function ()
+        {
+            $("#maingrid4").ligerGrid({
+                columns: [
+                  { display: '主键', name: 'Id', align: 'left', width:'25%' },
+                  { display: '文件名', name: 'FileName', minWidth: '35%' },
+                  { display: '扩展名', name: 'FileExtName', width: '15%', align: 'left' },
+                  { display: '大小', name: 'Size', width: '25%' }
+                ], url: '/file/FileDataGrid', pageSize: 20, sortName: 'Id',
+                width: '99%', height: '99%', checkbox: false
+            });
+        });
+</script>  
+}
 
-<div>
+<div id="maingrid4" style="margin: 0; padding: 0"></div>
+
+
+@*<div>
     文件服务成功启动
     
     <form action="/file/upload" method="post" enctype="multipart/form-data" name="upload_form">
         <input type="file" name="data"/>
         <input type="submit" value="提交"/>
     </form>
-</div>
+</div>*@
 

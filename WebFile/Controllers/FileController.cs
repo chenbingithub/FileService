@@ -23,6 +23,12 @@ namespace WebFile.Controllers
         {
             return View();
         }
+        public ActionResult FileDataGrid(int page = 1, int pagesize = 20)
+        {
+            var data = _fileInfo.FindAll().ToList();
+            var json = data.Skip(pagesize * (page - 1)).Take(pagesize).Select(u=>new {u.Id,u.FileName,u.FileExtName,u.Size});
+            return Json(new { Rows = json, Total = data.Count });
+        }
         /// <summary>
         /// 上传图片或文件
         /// </summary>
