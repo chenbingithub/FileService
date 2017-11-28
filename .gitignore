@@ -4,3 +4,8 @@
 
 /ConsoleApp/obj/Debug
 /WebFile/bin
+/ConsoleApp/bin/Debug
+/WebFile/Upload
+bin
+obj
+.vs

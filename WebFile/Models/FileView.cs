@@ -11,6 +11,7 @@ namespace WebFile.Models
         public FileView()
         {
             this.Id = Guid.NewGuid().ToString("N");
+            this.RealName = Guid.NewGuid().ToString("N");
         }
         public string Id { get; set; }
         /// <summary>
@@ -33,5 +34,13 @@ namespace WebFile.Models
         /// 文件以字节流的方式存储
         /// </summary>
         public byte[] Path { get; set; }
+        /// <summary>
+        /// 大于1M文件以文件形式保存
+        /// </summary>
+        public string TempPath { get; set; }
+        /// <summary>
+        /// 重命名后的名字
+        /// </summary>
+        public string RealName { get; set; }
     }
 }
