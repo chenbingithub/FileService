@@ -10,18 +10,19 @@ namespace WebFile.Controllers
 {
     public class HomeController : Controller
     {
-        private MongoCollection<FileView> _fileInfo;
-
-        public HomeController()
-        {
-            this._fileInfo = new MongoDbHelper().Database.GetCollection<FileView>("FileInfo");
-        }
+        
         // GET: Home
         public ActionResult Index()
         {
             return View();
         }
 
-        
+        public ActionResult Upload()
+        {
+            return View();
+        }
+
+
+
     }
 }

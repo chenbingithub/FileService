@@ -119,6 +119,15 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\jcrop\avatar-bg.png" />
+    <Content Include="Content\jcrop\avatar.js" />
+    <Content Include="Content\jcrop\jquery.jcrop.css" />
+    <Content Include="Content\jcrop\jquery.jcrop.min.js" />
+    <Content Include="Content\jcrop\jquery.upload.js" />
+    <Content Include="Content\jcrop\upload.js" />
+    <Content Include="Content\jcrop\uploader.swf" />
+    <Content Include="Content\jcrop\user-avatar.png" />
+    <Content Include="Content\jcrop\webuploader.min.js" />
     <Content Include="Content\LigerUI\3DSMAX.png" />
     <Content Include="Content\LigerUI\Alien Folder.png" />
     <Content Include="Content\LigerUI\applebg.jpg" />
@@ -601,6 +610,39 @@
     <Content Include="Content\LigerUI\task\wood2.jpg" />
     <Content Include="Content\LigerUI\Xp-G5 006.png" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\zyupload\skins\images\add_img.png" />
+    <Content Include="Content\zyupload\skins\images\bg.png" />
+    <Content Include="Content\zyupload\skins\images\close.png" />
+    <Content Include="Content\zyupload\skins\images\del.png" />
+    <Content Include="Content\zyupload\skins\images\delete_blue.png" />
+    <Content Include="Content\zyupload\skins\images\delete_white.png" />
+    <Content Include="Content\zyupload\skins\images\edit.png" />
+    <Content Include="Content\zyupload\skins\images\edit_blue.png" />
+    <Content Include="Content\zyupload\skins\images\edit_white.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\file.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\pdf.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\ppt.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\psd.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\rar.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\swf.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\ttf.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\txt.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\xls.png" />
+    <Content Include="Content\zyupload\skins\images\fileType\zip.png" />
+    <Content Include="Content\zyupload\skins\images\finish.png" />
+    <Content Include="Content\zyupload\skins\images\Jcrop.gif" />
+    <Content Include="Content\zyupload\skins\images\loading.gif" />
+    <Content Include="Content\zyupload\skins\images\success.png" />
+    <Content Include="Content\zyupload\skins\zyupload-1.0.0.css" />
+    <Content Include="Content\zyupload\skins\zyupload-1.0.0.min.css" />
+    <Content Include="Content\zyupload\zyupload-1.0.0.js" />
+    <Content Include="Content\zyupload\zyupload-1.0.0.min.js" />
+    <Content Include="Content\zyupload\zyupload.basic-1.0.0.js" />
+    <Content Include="Content\zyupload\zyupload.basic-1.0.0.min.js" />
+    <Content Include="Content\zyupload\zyupload.drag-1.0.0.js" />
+    <Content Include="Content\zyupload\zyupload.drag-1.0.0.min.js" />
+    <Content Include="Content\zyupload\zyupload.tailor-1.0.0.js" />
+    <Content Include="Content\zyupload\zyupload.tailor-1.0.0.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
@@ -634,8 +676,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Upload\Template\test.xlsx" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Upload.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -645,8 +687,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Upload\File\" />
-    <Folder Include="Upload\Image\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
