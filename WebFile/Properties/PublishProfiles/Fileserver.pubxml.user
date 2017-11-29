@@ -91,7 +91,7 @@
       <publishTime>11/28/2017 09:26:05</publishTime>
     </File>
     <File Include="bin/WebFile.dll">
-      <publishTime>11/29/2017 11:18:56</publishTime>
+      <publishTime>11/29/2017 14:14:13</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
       <publishTime>11/28/2017 09:26:05</publishTime>
@@ -116,6 +116,33 @@
     </File>
     <File Include="Content/bootstrap.min.css">
       <publishTime>11/28/2017 09:26:02</publishTime>
+    </File>
+    <File Include="Content/jcrop/avatar-bg.png">
+      <publishTime>11/29/2017 13:55:32</publishTime>
+    </File>
+    <File Include="Content/jcrop/avatar.js">
+      <publishTime>11/29/2017 13:55:32</publishTime>
+    </File>
+    <File Include="Content/jcrop/jquery.jcrop.css">
+      <publishTime>11/29/2017 13:55:32</publishTime>
+    </File>
+    <File Include="Content/jcrop/jquery.jcrop.min.js">
+      <publishTime>11/29/2017 13:55:32</publishTime>
+    </File>
+    <File Include="Content/jcrop/jquery.upload.js">
+      <publishTime>11/29/2017 13:55:32</publishTime>
+    </File>
+    <File Include="Content/jcrop/upload.js">
+      <publishTime>11/29/2017 13:55:32</publishTime>
+    </File>
+    <File Include="Content/jcrop/uploader.swf">
+      <publishTime>11/29/2017 13:55:32</publishTime>
+    </File>
+    <File Include="Content/jcrop/user-avatar.png">
+      <publishTime>11/29/2017 13:55:32</publishTime>
+    </File>
+    <File Include="Content/jcrop/webuploader.min.js">
+      <publishTime>11/29/2017 13:55:32</publishTime>
     </File>
     <File Include="Content/LigerUI/3DSMAX.png">
       <publishTime>11/28/2017 16:49:46</publishTime>
@@ -1563,6 +1590,105 @@
     <File Include="Content/Site.css">
       <publishTime>11/28/2017 09:26:02</publishTime>
     </File>
+    <File Include="Content/zyupload/skins/images/add_img.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/bg.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/close.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/del.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/delete_blue.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/delete_white.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/edit.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/edit_blue.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/edit_white.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/file.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/pdf.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/ppt.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/psd.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/rar.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/swf.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/ttf.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/txt.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/xls.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/fileType/zip.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/finish.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/Jcrop.gif">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/loading.gif">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/images/success.png">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/zyupload-1.0.0.css">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/skins/zyupload-1.0.0.min.css">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/zyupload-1.0.0.js">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/zyupload-1.0.0.min.js">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/zyupload.basic-1.0.0.js">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/zyupload.basic-1.0.0.min.js">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/zyupload.drag-1.0.0.js">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/zyupload.drag-1.0.0.min.js">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/zyupload.tailor-1.0.0.js">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
+    <File Include="Content/zyupload/zyupload.tailor-1.0.0.min.js">
+      <publishTime>11/29/2017 13:54:51</publishTime>
+    </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>11/28/2017 09:26:05</publishTime>
     </File>
@@ -1609,7 +1735,10 @@
       <publishTime>11/28/2017 17:25:50</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>11/28/2017 17:28:43</publishTime>
+      <publishTime>11/29/2017 13:10:59</publishTime>
+    </File>
+    <File Include="Views/Home/Upload.cshtml">
+      <publishTime>11/29/2017 14:04:44</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
       <publishTime>11/28/2017 16:57:09</publishTime>

@@ -1,23 +1,30 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "文件列表";
 }
 @section head
 {
-  <script type="text/javascript">
-        $(function ()
-        {
+    <script type="text/javascript">
+        $(function() {
             $("#maingrid4").ligerGrid({
                 columns: [
-                  { display: '主键', name: 'Id', align: 'left', width:'25%' },
-                  { display: '文件名', name: 'FileName', minWidth: '35%' },
-                  { display: '扩展名', name: 'FileExtName', width: '15%', align: 'left' },
-                  { display: '大小', name: 'Size', width: '25%' }
-                ], url: '/file/FileDataGrid', pageSize: 20, sortName: 'Id',
-                width: '99%', height: '99%', checkbox: false
+                    { display: '主键', name: 'Id', align: 'left', width: '25%' },
+                    { display: '文件名', name: 'FileName', minWidth: '35%' },
+                    { display: '扩展名', name: 'FileExtName', width: '15%', align: 'left' },
+                    { display: '大小', name: 'Size', width: '10%' },
+                    { display: '操作', name: '', width: '15%', render: function(item) {
+                        return "<a href='/DownFile?key=" + item.Id + "' target='_blank'>查看</a>";
+                    } }
+                ],
+                url: '/FileData',
+                pageSize: 20,
+                sortName: 'Id',
+                width: '99%',
+                height: '99%',
+                checkbox: false
             });
         });
-</script>  
+    </script>
 }
 
 <div id="maingrid4" style="margin: 0; padding: 0"></div>

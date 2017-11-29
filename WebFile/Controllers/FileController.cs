@@ -18,21 +18,23 @@ namespace WebFile.Controllers
         {
             this._fileInfo=new MongoDbHelper().Database.GetCollection<FileView>("FileInfo");
         }
-        // GET: File
+        [Route("Index")]
         public ActionResult Index()
         {
             return View();
         }
+        [Route("FileData")]
         public ActionResult FileDataGrid(int page = 1, int pagesize = 20)
         {
             var data = _fileInfo.FindAll().ToList();
-            var json = data.Skip(pagesize * (page - 1)).Take(pagesize).Select(u=>new {u.Id,u.FileName,u.FileExtName,u.Size});
+            var json = data.Skip(pagesize * (page - 1)).Take(pagesize).Select(u=>new {u.Id,u.FileName,u.FileExtName, Size=u.Size+u.Unit});
             return Json(new { Rows = json, Total = data.Count });
         }
         /// <summary>
         /// 上传图片或文件
         /// </summary>
         /// <returns></returns>
+        [Route("UploadFile")]
         public ActionResult Upload()
         {
             try
@@ -94,11 +96,13 @@ namespace WebFile.Controllers
             }
             
         }
+
         /// <summary>
         /// 获取文件或图片
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
+        [Route("DownFile")]
         public ActionResult GetFile(string key)
         {
             try
