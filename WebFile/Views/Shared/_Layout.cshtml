@@ -1,13 +1,16 @@
-﻿<!DOCTYPE html>
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
-    <link href="~/Content/LigerUI/lib/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet"/>
+    @*<link href="~/Content/LigerUI/lib/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet"/>
     <script src="~/Content/LigerUI/lib/jquery/jquery-1.9.0.min.js"></script> 
     <script src="~/Content/LigerUI/lib/ligerUI/js/core/base.js"></script>
-    <script src="~/Content/LigerUI/lib/ligerUI/js/ligerui.min.js"></script>
+    <script src="~/Content/LigerUI/lib/ligerUI/js/ligerui.min.js"></script>*@
+    @Styles.Render("~/css")
+    @Scripts.Render("~/js")
     @RenderSection("head",required:false)
 </head>
 <body>
